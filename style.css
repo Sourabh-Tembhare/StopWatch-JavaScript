@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+
+}
+h2{
+font-size: 46px;
+}
+
+.timeShow{
+    display: flex;
+    gap: 10px;
+    font-size: 28px;
+    font-weight: 900;
+}
+.container{
+    border: 2px solid red;
+   width: 450px;
+   height: 150px;
+   border-radius:18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 18px;
+
+}
+
+button{
+    background-color: red;
+    color: white;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.btn{
+    display: flex;
+    gap: 18px;
+}
